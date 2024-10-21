@@ -1,21 +1,11 @@
-import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
+import 'package:flutter/material.dart';
 
 class ImageViewer {
-  ImageViewer(BuildContext context, String assetImagePath) {
-    if (kIsWeb) {
-      // For web, show the image in a dialog (or any other approach)
-      _showImageInDialog(context, assetImagePath);
-    } else {
-      // Default image viewer for mobile and desktop
-      _showImageInDialog(context, assetImagePath);
-    }
-  }
-
-  void _showImageInDialog(BuildContext context, String assetImagePath) {
+  ImageViewer(BuildContext context, String image) {
     showGeneralDialog(
-      barrierColor: Colors.black.withOpacity(0.7),
+      barrierColor:
+          Colors.black.withOpacity(0.7), // Add some transparency to the barrier
       transitionDuration: const Duration(milliseconds: 500),
       barrierDismissible: true,
       barrierLabel: 'Barrier',
@@ -40,7 +30,7 @@ class ImageViewer {
                   Navigator.of(context).pop();
                 },
                 child: PhotoView(
-                  imageProvider: AssetImage(assetImagePath),
+                  imageProvider: AssetImage(image),
                   backgroundDecoration:
                       const BoxDecoration(color: Colors.black),
                 ),
