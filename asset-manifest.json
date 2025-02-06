@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.39913c87.css",
+    "main.js": "/static/js/main.079b506b.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/home-bg.png": "/static/media/home-bg.4af822aa768c067534ba.png",
+    "static/media/movies_application.png": "/static/media/movies_application.47d7917473c01efac435.png",
+    "static/media/islamyapplication.png": "/static/media/islamyapplication.7d363026568463f99317.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.d57d80b0a51731d34090.png",
+    "static/media/bugaway.png": "/static/media/bugaway.fafac5a22d6832b445b2.png",
+    "static/media/task_management.png": "/static/media/task_management.b523e0b695370db8cc6f.png",
+    "static/media/home-main.svg": "/static/media/home-main.0a8f0244f4c3f60860569dab777e820b.svg",
+    "static/media/about.png": "/static/media/about.98ee732c128b51c7f8ee.png",
+    "static/media/logo.png": "/static/media/logo.d9d974dd4d6b3386fd15.png",
+    "static/media/avatar.svg": "/static/media/avatar.ec99b1d170cfec5a05eccd167d381916.svg",
+    "static/media/Nader_Emad_Mohamed.pdf": "/static/media/Nader_Emad_Mohamed.0cc3bec8e4810147794e.pdf",
+    "static/media/pre.svg": "/static/media/pre.c3cd37cdcc91e07d78f3.svg",
+    "index.html": "/index.html",
+    "main.39913c87.css.map": "/static/css/main.39913c87.css.map",
+    "main.079b506b.js.map": "/static/js/main.079b506b.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39913c87.css",
+    "static/js/main.079b506b.js"
+  ]
+}
