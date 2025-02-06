@@ -8,8 +8,6 @@
 
 <br/>
 
-</center>
-
 <h3 align="center">
     ⚠️
     <a href="https://github.com/NaderEmad9/naderemad9.github.io/issues">Report Bug</a> &nbsp; &nbsp;
@@ -62,4 +60,9 @@ You will find all the components used, and you can edit your information accordi
 
 Give a ⭐ if you like this website!
 
-<a href="https://buymeacoffee.com/NaderEmad" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height="60px" width="217px"></a>
+<div align="center">
+  <a href="https://buymeacoffee.com/NaderEmad" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" 
+         alt="Buy Me A Coffee" height="60px" width="217px">
+  </a>
+</div>
