@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.39913c87.css",
+    "main.css": "/static/css/main.e18514cc.css",
     "main.js": "/static/js/main.079b506b.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/Nader_Emad_Mohamed.pdf": "/static/media/Nader_Emad_Mohamed.0cc3bec8e4810147794e.pdf",
     "static/media/pre.svg": "/static/media/pre.c3cd37cdcc91e07d78f3.svg",
     "index.html": "/index.html",
-    "main.39913c87.css.map": "/static/css/main.39913c87.css.map",
+    "main.e18514cc.css.map": "/static/css/main.e18514cc.css.map",
     "main.079b506b.js.map": "/static/js/main.079b506b.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39913c87.css",
+    "static/css/main.e18514cc.css",
     "static/js/main.079b506b.js"
   ]
 }
