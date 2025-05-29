@@ -3,7 +3,7 @@
   <a href="https://naderemad9.github.io" target="_blank">naderemad9.github.io</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme_img_.png" />
+  <img alt="Demo" src="./Images/readme_img.png" />
 </div>
 
 <br/>
