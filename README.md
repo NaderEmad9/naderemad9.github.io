@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website - v3.0<br/>
   <a href="https://naderemad9.github.io" target="_blank">naderemad9.github.io</a>
 </h2>
 <div align="center">
@@ -21,22 +21,30 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href="https://naderemad9.github.io" target="_blank">nader.dev</a>, which showcases some of my GitHub projects, my resume, and my technical skills.<br/>
+My personal portfolio <a href="https://naderemad9.github.io" target="_blank">naderemad9.github.io</a>, which showcases some of my GitHub projects, my resume, and my technical skills.
 
 This project was built using these technologies:
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VS Code
-- Vercel
+- [React.js](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [React Router](https://reactrouter.com/)
+- [Bootstrap](https://getbootstrap.com/) (for some components)
+- [VS Code](https://code.visualstudio.com/)
 
 ## Features
 
 **📖 Multi-Page Layout**  
-**🎨 Styled with React-Bootstrap and CSS with easy-to-customize colors**  
-**📱 Fully Responsive**
+**🎨 Styled with Tailwind CSS and shadcn/ui, easy to customize**  
+**📱 Fully Responsive**  
+**⚡ Fast Vite-based development**  
+**🧩 Modular React Components**  
+**📝 Resume PDF Viewer and Download**  
+**🌙 Dark Mode Ready**  
+**📊 GitHub Contribution Calendar**  
+**🔗 Social Links and Contact Section**
 
 ## Getting Started
 
@@ -44,19 +52,34 @@ Clone this repository. You will need `node.js` and `git` installed globally on y
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
-2. In the project directory, you can run: `npm start`
-
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.  
-The page will reload if you make edits.
+1. Install dependencies:  
+   ```sh
+   npm install
+   ```
+2. Start the development server:  
+   ```sh
+   npm run dev
+   ```
+   The app will run at [http://localhost:8080](http://localhost:8080) by default.
 
 ## Usage Instructions
 
-Open the project folder and navigate to `/src/components/`.  
-You will find all the components used, and you can edit your information accordingly.
+- All source code is in the `/src` directory.
+- Components are in `/src/components/`.
+- Styles are managed with Tailwind CSS (`src/index.css`) and custom CSS (`src/style.css`, `src/App.css`).
+- Update your information and content in the relevant components.
+- The favicon can be changed by replacing `public/nadicon.ico`.
 
-### Show your support
+## Deployment
+
+You can deploy this site on GitHub Pages, Vercel, Netlify, or any static hosting provider.  
+To build for production:
+```sh
+npm run build
+```
+The output will be in the `dist` folder.
+
+## Show your support
 
 Give a ⭐ if you like this website!
 
