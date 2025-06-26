@@ -6,6 +6,7 @@ import { useTheme } from './ThemeProvider';
 import { certificationsData } from '../data/certificationsData';
 import blackEfLogo from '../Assets/black_ef.png';
 import whiteEfLogo from '../Assets/white_ef.png';
+import routeLogo from '../Assets/route.png';
 
 // Optional: Map issuer to logo/icon
 const issuerLogos: Record<string, { light: string; dark: string } | string> = {
@@ -15,7 +16,7 @@ const issuerLogos: Record<string, { light: string; dark: string } | string> = {
     dark: "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.svg"
   },
   "Coursera": "https://www.vectorlogo.zone/logos/coursera/coursera-icon.svg",
-  "Route Academy": "https://scontent.fruh2-2.fna.fbcdn.net/v/t39.30808-6/241513285_4254592044636278_6228006272036394703_n.png?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=iULE3yO7wMcQ7kNvwEancMy&_nc_oc=AdkeIu7Yqbk4pucBJNP3GcCfkjigLfvGKLbraijuE3uJ9oLxiXa1_EVB3tqlDnFpTGr2nJtoNsWwf9eW939u3D5O&_nc_zt=23&_nc_ht=scontent.fruh2-2.fna&_nc_gid=WmJ8CSHAWLmIKiceXpc6yA&oh=00_AfLfP6RIXpEJpY5a9gXz8nK3MQ1ut3WQE2eXgLQMDGADlw&oe=683CFB81",
+  "Route Academy": routeLogo,
   "EF SET": {
     light: blackEfLogo,
     dark: whiteEfLogo
